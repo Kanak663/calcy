@@ -1,0 +1,58 @@
+ body{
+            background: linear-gradient(to bottom left, purple,black);
+          
+            height: 100vh;
+            
+        }
+        div{
+            background:linear-gradient(to top right,purple,black);
+            display: grid;
+            width: 320px;
+            height: 400px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 15px;
+            padding: 15px;
+            border-radius: 25px;
+            box-shadow: -3px -3px 3px blueviolet,
+            3px 3px 3px blueviolet;
+
+        }
+        #display{
+            grid-column: 1/span 4;
+            grid-row: 1/span 2;
+        }
+        .clear{
+            grid-column: 1/span 2;
+        }
+        #add{
+            grid-column: 4;
+            grid-row: 5/span 2;
+        }
+        input{
+            border-radius: 10px;
+            box-shadow: inset 3px 3px 4px blanchedalmond,
+            inset -3px -3px 4px blanchedalmond;
+             background-color: rgb(101, 83, 99); 
+            color: rgb(233, 224, 224);
+            font-size: 24px;
+            text-align: right;
+            cursor:no-drop
+        }
+        button{
+            border: none;
+            border-radius: 10px;
+            box-shadow: 3px 3px 1px rgb(61, 53, 53);
+            background-color: rgb(219, 187, 216);
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 1s;
+            cursor: pointer;
+        }
+
+        button:focus{
+            background-color: rgb(148, 111, 143);
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+       

@@ -2,7 +2,7 @@
             background: linear-gradient(to bottom left, purple,black);
             display:flex;
             justify-content:center;
-            align-item:center;
+            align-items:center;
             height: 100vh;
             
         }
@@ -59,4 +59,5 @@
         }
 
        
+
 

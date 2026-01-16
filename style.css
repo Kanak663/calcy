@@ -1,6 +1,8 @@
  body{
             background: linear-gradient(to bottom left, purple,black);
-          
+            display:flex;
+            justify-content:center;
+            align-items:center;
             height: 100vh;
             
         }
@@ -55,4 +57,5 @@
         button:hover{
             transform: scale(1.1);
         }
+
        
